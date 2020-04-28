@@ -19,6 +19,25 @@ KNN can be used for both classification and regression predictive problems. Howe
     6. Get top k rows from the sorted array
     7. Get the most frequent class of these rows
     8. Return the predicted class
+        
+## Support Vector Machines:
+SVM is a supervised machine learning algorithm which can be used for classification or regression problems. It uses a technique called the kernel trick to transform your data and then based on these transformations it finds an optimal boundary between the possible outputs.
+
+![image](https://user-images.githubusercontent.com/53932260/80448622-845cbc80-893a-11ea-9849-21ebe7a485c6.png)
+
+### Pros and Cons associated with SVM
+
+   #### Pros:
+        1. It works really well with a clear margin of separation
+        2. It is effective in high dimensional spaces.
+        3. It is effective in cases where the number of dimensions is greater than the number of samples.
+        4. It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
+   #### Cons:
+        1. It doesn’t perform well when we have large data set because the required training time is higher
+        2. It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping
+        3. SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation. It is included in the related SVC method of Python scikit-learn library.
+
+
 
 
 
